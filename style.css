@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* font-family: "Red Rose", cursive; */
+
+}
+body{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+      url('./assets/background.png');
+     
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;    
+    align-items:center;
+    justify-content: space-between;
+}
+/* nav bar */
+header{
+    width:100%;
+    padding: 3rem;
+    /* border: 1px solid red; */
+     
+}
+header nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width:100%;
+    /* border: 1px solid red; */
+}
+a{
+    text-decoration: none;
+    color: #ffc233;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap:5rem;
+}
+
+.logo
+{
+    /* border: 1px solid green; */
+    width:10rem;
+}
+.logo img{
+    display:block;
+ width: 100%;
+}
+
+.order-btn .btn{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+.order-btn .btn:hover{
+    color: #ff505f;
+    background-color: #ffffff;
+}
+.menu li {
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    
+  }
+  /* hero section */
+
+.hero-section{
+    /* border: 1px solid black; */
+    width:100%;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-around; */
+    gap:1rem;
+
+}
+.hero-section .main-h{
+    font-family: "Dela Gothic One", cursive;
+    
+    font-weight:900;
+    font-size: 6.5rem;
+    line-height: 7rem;
+    padding-top: 4rem;
+    
+    color: #ffc233;
+}
+.sub-h1 ,.sub-h2{
+    display: block;
+    text-align: center;
+}
+.hero-section2 .btn-menu{
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  .hero-section2 .btn-menu:hover{
+    color: #ff505f;
+     background-color:#ffffff;
+  }
+  /* footer */
+  footer{
+    width:100%;
+    padding:2rem;
+  }
+footer .footer-logo{
+    
+    display:flex;
+    align-items:end;
+    justify-content: end;
+    /* border: 1px solid green; */
+    
+}
